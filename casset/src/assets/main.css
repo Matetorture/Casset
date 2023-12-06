@@ -1,0 +1,25 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #7f76aa;
+  transition: 0.4s;
+}
+a:hover {
+  color: #9a77c4;
+  text-decoration: underline;
+}
+.text-normal {
+  color: var(--color-text) !important;
+}
+.text-primary {
+  color: #9a77c4 !important;
+  text-decoration: none !important;
+}
