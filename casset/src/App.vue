@@ -21,15 +21,11 @@ import { RouterLink, RouterView } from 'vue-router'
         </div>
     </div>
   </nav>
-  <header>
-    
-  </header>
 
   <RouterView />
 </template>
 
 <style scoped>
-
 nav a.router-link-exact-active {
   color: var(--color-text);
   font-weight: bold;
